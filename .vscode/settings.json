@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bf3e01d2-b59d-49fd-a5f4-411e31a82065/resourceGroups/Cineverse/providers/Microsoft.Web/sites/Cineverse",
+    "appService.deploySubpath": "."
+}
