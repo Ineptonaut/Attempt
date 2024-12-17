@@ -8,10 +8,8 @@ router.get('/', async (req, res) => {
 
         res.render('showsListView', { 
             nav: [
-                {link: '/index', title: 'Home'},
                 {link: '/moviesListView', title: 'Movies'},
-                {link: '/showsListView', title: 'Shows'},
-                {link: '/about', title: 'About'},
+                {link: '/showsListView', title: 'TV Shows'},
             ],
             title: 'shows found', shows});
     } catch (error) {
