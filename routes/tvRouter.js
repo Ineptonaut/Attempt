@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Show = require('../Models/tvpost');
+const Show = require('../Models/post');
 
 router.get('/', async (req, res) => {
     try {
