@@ -8,7 +8,9 @@ router.get('/', async (req, res) => {
 
         res.render('moviesListView', { 
             nav: [
-                {link: '/public/views/moviesListView', title: 'Movies'},
+                {link: '/index', title: 'Home'},
+                {link: '/moviesListView', title: 'Movies'},
+                {link: '/showsListView', title: 'TV Shows'},
                 {link: '/about', title: 'About'},
             ],
             title: 'movies found', movies});

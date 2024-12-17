@@ -41,6 +41,7 @@ app.get('/', function(req, res){
     res.render('index', 
     {
         nav: [
+            {link: '/index', title: 'Home'},
             {link: '/moviesListView', title: 'Movies'},
             {link: '/showsListView', title: 'TV shows'},
             {link: '/about', title: 'About'},
