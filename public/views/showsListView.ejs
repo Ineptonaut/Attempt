@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.ejs">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.ejs">TV Shows</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -41,7 +41,7 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
                             <h1>Cineverse</h1>
-                            <span class="subheading">Movies found</span>
+                            <span class="subheading">TV Shows found</span>
                         </div>
                     </div>
                 </div>
@@ -56,12 +56,11 @@
                     <div class="post-preview">
                         <a href="showsListView.ejs">
                             <h2 class="post-title"><%=item.title%></h2>
-                            <h3 class="post-subtitle"><%=item.description%></h3>
+                            <h3 class="post-subtitle"><%=item.description%>  Starring <%=item.star_actors%></h3>
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!"><%=item.director%></a>
-                            on <%=item.genre%>
+                            <a href="#!"><%=item.director%> Genre: <%=item.genre%></a>
                         </p>
                     </div>
                     <!-- Divider-->

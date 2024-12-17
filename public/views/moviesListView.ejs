@@ -57,12 +57,11 @@
                     <div class="post-preview">
                         <a href="moviesListView.ejs">
                             <h2 class="post-title"><%=item.title%></h2>
-                            <h3 class="post-subtitle"><%=item.description%></h3>
+                            <h3 class="post-subtitle"><%=item.description%> Starring <%=item.star_actors%></h3>
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!"><%=item.director%></a>
-                            on <%=item.genre%>
+                            <a href="#!"><%=item.director%> Genre: <%=item.genre%></a>
                         </p>
                     </div>
                     <!-- Divider-->
