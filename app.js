@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const express = require('express');
 const app = express();
 const chalk = require('chalk');
@@ -44,7 +43,6 @@ app.get('/', function(req, res){
             {link: '/index', title: 'Home'},
             {link: '/moviesListView', title: 'Movies'},
             {link: '/showsListView', title: 'TV shows'},
-            {link: '/about', title: 'About'},
         ],
         title: 'Cineverse',
     }
